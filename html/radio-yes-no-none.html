@@ -1,0 +1,23 @@
+<script id="radio-yes-no-none" type="text/x-handlebars-template">
+<div id="radio-yes-no-none_{{id}}" class="form-group row">
+	<div class="col-sm-7">
+		<label for="customRadioInline{{id}}_1">{{label}}{{#if tooltip}}
+  	<i class="fa fa-question-circle" data-toggle="tooltip" title="{{tooltip}}"></i>
+{{/if}}</label>
+	</div>
+	<div class="col-sm-5">
+		<div class="custom-control custom-radio custom-control-inline">
+  			<input {{#if checked_yes}}checked {{/if}}type="radio" value="yes" id="customRadioInline{{id}}_1" name="customRadioInline{{id}}_1" class="custom-control-input">
+  			<label class="custom-control-label" for="customRadioInline{{id}}_1">{{#if label_1}}{{label_1}}{{else}}Oui{{/if}}</label>
+		</div>
+		<div class="custom-control custom-radio custom-control-inline">
+  			<input {{#if checked_no}}checked {{/if}}type="radio" value="no" id="customRadioInline{{id}}_2" name="customRadioInline{{id}}_1" class="custom-control-input"{{#if checked}} "checked"{{checked}}{{/if}}>
+  			<label class="custom-control-label" for="customRadioInline{{id}}_2">{{#if label_2}}{{label_2}}{{else}}Non{{/if}}</label>
+		</div>
+		<div class="custom-control custom-radio custom-control-inline">
+  			<input {{#if checked_none}}checked {{/if}}type="radio" value="none" id="customRadioInline{{id}}_3" name="customRadioInline{{id}}_1" class="custom-control-input">
+  			<label class="custom-control-label" for="customRadioInline{{id}}_3">{{#if label_3}}{{label_3}}{{else}}Aucun{{/if}}</label>
+		</div>
+	</div>
+</div>
+</script>

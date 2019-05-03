@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="fr" class="home">
+<head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/rewrite.css">
+    <title>Éditions Langloÿs</title>
+	
+</head>
+<body>
+<div id="pageLoading" class="loader text-center">
+	<div class="spinner-group">
+  	<div class="spinner-grow " role="status"></div>
+  	<p>Chargement ...</p></div>
+</div>
+	<div w3-include-html="header"></div>
+	<div w3-include-html="slide"></div>
+	<div class="container">
+
+		
+		<div class="row">
+			<div class="mycontent col-xs-12">
+				<div w3-include-html="breadcrumb"></div>
+				<!-- <div w3-include-html="home-block"></div> -->
+				<div w3-include-html="home"></div>
+				<!--  -->
+				<br>
+				<!-- <form>
+					<div class="content-cms ">
+						<h1>Calcul des décomptes Acquréreur et/ou Vendeur</h1>
+						<br>
+						<nav class="custom-nav nav nav-pills nav-fill">
+						  <a class="nav-item nav-link btn-info btn-lg active" data-toggle="tab" href="#general">Général</a>
+						  <a class="nav-item nav-link btn-info btn-lg" data-toggle="tab" href="#acquereur">Acquéreur</a>
+						  <a class="nav-item nav-link btn-info btn-lg" data-toggle="tab" href="#vendeur">Vendeur</a>
+						</nav>
+				
+						<div class="tab-content">
+				
+							<div class="tab-pane active" id="general">
+								<div class="card main-card">
+									<h3 class="card-header">Caractéristiques de la vente<i class="fa fa-handshake-o float-right" aria-hidden="true"></i></h3>
+							      			<div class="card-body">
+										<div id="9_" w3-include-html="select"></div>
+										<div id="10_" w3-include-html="radio-yes-no"></div>
+										<div id="11_" w3-include-html="select"></div>
+										<div id="13_" w3-include-html="select"></div>
+										<div id="14_" w3-include-html="radio-yes-no"></div>
+										<div id="15_" w3-include-html="radio-yes-no"></div>
+										<div id="16_" w3-include-html="radio-yes-no"></div>
+										<div id="17_" w3-include-html="input"></div>
+										<div id="18_" w3-include-html="radio-yes-no-none"></div>
+										<div id="19_" w3-include-html="input"></div>
+										<div id="20_" w3-include-html="input" class="vefa disabled"></div>
+				
+										<div class="card">
+											<h5 class="card-header">Prix, frais annexes, dispositions particulières<i class="fa fa-thumb-tack float-right" aria-hidden="true"></i></h5>
+											<div class="card-body">
+												<div id="21_" w3-include-html="input"></div>
+												<div id="22_" w3-include-html="input" class="vefa disabled"></div>
+												<div id="23_" w3-include-html="input"></div>
+												<div id="24_" w3-include-html="input"></div>
+												<div id="25_" w3-include-html="radio-yes-no" class="toggle_yes_no"></div>
+												<div id="26_" w3-include-html="input"></div>
+												<div id="27_" w3-include-html="radio-yes-no"></div>
+												<div id="28_" w3-include-html="radio-yes-no"></div>
+												<div id="29_" w3-include-html="input"></div>
+											</div>
+										</div>
+				
+										<div class="card">
+											<h5 class="card-header">Conditions de servitudes<i class="fa fa-thumb-tack float-right" aria-hidden="true"></i></h5>
+											<div class="card-body">
+												<div id="30_" w3-include-html="radio-yes-no" class="toggle_yes_no"></div>
+												<fieldset disabled class="disabled">
+													<div id="31_" w3-include-html="radio-yes-no"></div>
+													<div id="32_" w3-include-html="input"></div>
+												</fieldset>
+											</div>
+										</div>
+									</div>
+				
+								</div>
+				
+								<div class="card">
+									<h3 class="card-header">Dépôt de garantie et provision sur frais<i class="fa fa-bank float-right" aria-hidden="true"></i></h3>
+							      					<div class="card-body">
+										<br>
+										<div id="33_" w3-include-html="radio-yes-no"></div>
+										<div id="34_" w3-include-html="input"></div>
+										<div id="35_" w3-include-html="radio-yes-no"></div>
+										<div id="36_" w3-include-html="radio-yes-no"></div>
+										<div id="37_" w3-include-html="input"></div>
+									</div>
+								</div>
+				
+								<div class="card">
+									<h3 class="card-header">Informations personnelles<i class="fa fa-user float-right" aria-hidden="true"></i></h3>
+							      					<div class="card-body">
+										<div class="alert alert-warning alert-dismissible fade show" role="alert">
+										<strong>Personnalisez votre dossier</strong> et conservez vos données personnelles.
+										<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+										    <span aria-hidden="true">&times;</span>
+										</button>
+										</div>
+										
+										<div id="1_" w3-include-html="input-large"></div>
+										<div id="2_" w3-include-html="input-large"></div>
+										<div id="3_" w3-include-html="input-large"></div>
+										<div id="4_" w3-include-html="input-large"></div>
+										<div class="form-row">
+											<div id="5_" w3-include-html="input-col" class="form-group col-md-6"></div>
+											<div id="6_" w3-include-html="input-col" class="form-group col-md-6"></div>
+										</div>
+										<div class="form-row">
+											<div id="7_" w3-include-html="input-col" class="form-group col-md-6"></div>
+											<div id="8_" w3-include-html="input-col" class="form-group col-md-6"></div>
+										</div>
+									</div>
+								</div>
+				
+								<div class="card">
+									<h3 class="card-header">Poursuivre le décompte<i class="fa fa-calculator float-right" aria-hidden="true"></i></h3>
+									<div class="card-body form-row">
+										<div class="col-md-5">
+											<button type="button" class="btn btn-lg btn-info btn-block goto" data-goto="#acquereur">Continuer vers Acquéreur <i class="fa fa-angle-right"></i></button>
+										</div>
+										<div class="col-md-2 text-center">
+											<span class="align-middle">Ou</span>
+										</div>
+										<div class="col-md-5">
+											<button type="button" class="btn btn-lg btn-info btn-block goto" data-goto="#vendeur">Continuer vers Vendeur <i class="fa fa-angle-right"></i></button>
+										</div>
+									</div>
+								</div>
+				
+							</div>end tab-pane
+				
+							<div class="tab-pane" id="acquereur">
+								<div class="card main-card">
+									<h3 class="card-header">Caractéristiques de la vente (Rappel)<i class="fa fa-handshake-o float-right" aria-hidden="true"></i></h3>
+							      					<div class="card-body">
+										<div id="38_" w3-include-html="title"></div>
+										<div id="39_" w3-include-html="title"></div>
+										<br>
+										<div class="card">
+											<h5 class="card-header">Charges augmentatives du prix (pour le calcul des droits)<i class="fa fa-thumb-tack float-right" aria-hidden="true"></i></h5>
+											<div class="card-body">
+												<div id="40_" w3-include-html="title"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+				
+								<div class="card toggle_yes_no">
+									<h3 class="card-header">Les prêts<i class="fa fa-money float-right" aria-hidden="true"></i></h3>
+									<div class="card-body">
+										<div class="form-row row">
+											<div id="41_" w3-include-html="radio-yes-no"></div>
+										</div>
+									</div>	
+								</div>
+								<fieldset disabled class="disabled">
+									elmt 42
+									<button class="clone btn btn-secondary btn-lg btn-block" type="button" data-clone="#pret_0" data-clone-to="#prets" data-class=".pret"><span class=" float-left"><i class="ml-1 fa fa-minus"></i></span><span>Ajouter un prêt (<span class="count">1</span></span>)<span class="float-right"><i class="ml-1 fa fa-plus"></i></span></button>
+									elmt 42
+												
+									<div id="prets" class="form-row">
+										<div id="pret_0" class="col-sm-12 pret">
+											<div class="card">
+												<button class="btn btn-remove" type="button" title="Supprimer ce prêt"><i class="ml-1 fa fa-times-circle float-right"></i></button>
+												<h5  class="card-header">Prêt <span class="index">1</span></h5>
+												<div class="card-body">
+													<div id="43_" w3-include-html="radio-yes-no"></div>
+													<div id="44_" w3-include-html="input"></div>
+													<div id="45_" w3-include-html="radio-yes-no"></div>
+													<div id="46_" w3-include-html="radio-yes-no"></div>
+													<div id="47_" w3-include-html="input"></div>
+													<div id="48_" w3-include-html="input"></div>
+													<div id="49_" w3-include-html="input"></div>
+													<div id="50_" w3-include-html="radio-yes-no"></div>
+													<div id="51_" w3-include-html="radio-yes-no"></div>
+													<div id="52_" w3-include-html="input"></div>
+													<div id="53_" w3-include-html="radio-yes-no"></div>
+													<div id="54_" w3-include-html="radio-yes-no"></div>
+													<div id="55_" w3-include-html="input"></div>
+												</div>
+											</div>
+										</div>
+									</div>	
+								</fieldset>
+								<div class="card">
+									<h3  class="card-header">Financement et apports<i class="fa fa-thumb-money float-right" aria-hidden="true"></i></h3>
+									<div class="card-body">
+										<div id="56_" w3-include-html="title"></div>
+										<div id="57_" w3-include-html="radio-yes-no"></div>
+										<hr>
+										<h5>Charges annexes selon convention des parties</h5>
+										<br>
+										<div id="58_" w3-include-html="title"></div>
+										<div id="59_" w3-include-html="radio-yes-no"></div>
+										<div id="60_" w3-include-html="input"></div>
+										<hr>
+										<h5>Calcul de prorata de charges de copropriété et taxe foncière</h5>
+										<br>
+										<div id="61_" w3-include-html="radio-yes-no"></div>
+										<div id="62_" w3-include-html="title"></div>
+										<div id="63_" w3-include-html="input"></div>
+										<div id="64_" w3-include-html="input"></div>
+										<div id="65_" w3-include-html="input"></div>
+									</div>
+								</div>
+				
+								<fieldset class="result">
+									<div id="result-acquereur" class="card">
+										<h3 class="card-header">
+											Résultat du décompte acquéreur
+										</h3>
+				
+										<div class="card-body form-row">
+											<table class="table table-striped">
+											  <thead>
+											    <tr>
+											      <th scope="col">#</th>
+											      <th scope="col">Couleur</th>
+											      <th scope="col">Valeur</th>
+											      <th scope="col">%</th>
+											    </tr>
+											  </thead>
+											  <tbody>
+											    <tr>
+											      <th scope="row">1</th>
+											      <td>Rouge</td>
+											      <td>200</td>
+											      <td>1.5%</td>
+											    </tr>
+											    <tr>
+											      <th scope="row">2</th>
+											      <td>Vert</td>
+											      <td>150</td>
+											      <td>0.3%</td>
+											    </tr>
+											    <tr>
+											      <th scope="row">3</th>
+											      <td>Jaune</td>
+											      <td>300</td>
+											      <td>1%</td>
+											    </tr>
+											  </tbody>
+											</table>
+										</div>
+										<canvas id="doughnutChart-2"></canvas>
+										
+									</div>
+				
+									<button disabled class="btn btn-secondary btn-lg btn-block"><span>Générer un PDF</span><span class="float-right"><i class="fa fa-file-pdf-o"></i></span></button>
+				
+								</fieldset>
+				
+								<div class="card">
+									<h3 class="card-header">Terminer le décompte<i class="fa fa-calculator float-right" aria-hidden="true"></i></h3>
+									<div class="card-body form-row">
+										<button type="button" class="btn btn-block btn-lg btn-primary goto" data-goto="#result-acquereur">Calculer le décompte acquéreur</button>
+									</div>
+								</div>
+								
+								<div class="card">
+									<h3 class="card-header">Poursuivre le décompte<i class="fa fa-calculator float-right" aria-hidden="true"></i></h3>
+									<div class="card-body form-row">
+										<div class="col-md-5">
+											<button type="button" class="btn btn-lg btn-info btn-block goto" data-goto="#general"><i class="fa fa-angle-left"></i> Revenir au général</button>
+										</div>
+										<div class="col-md-2 text-center">
+											<span class="align-middle">Ou</span>
+										</div>
+										<div class="col-md-5">
+											<button type="button" class="btn btn-lg btn-info btn-block goto" data-goto="#vendeur">Continuer vers Vendeur <i class="fa fa-angle-right"></i></button>
+										</div>
+									</div>
+								</div>
+				
+							</div>
+				
+							<div class="tab-pane" id="vendeur">
+								<div class="card main-card">
+									<h3 class="card-header">Caractéristiques de la vente (Rappel)<i class="fa fa-handshake-o float-right" aria-hidden="true"></i></h3>
+							      					<div class="card-body">
+										<div id="66_" w3-include-html="title"></div>
+										<div id="67_" w3-include-html="title"></div>
+										<div id="68_" w3-include-html="select"></div>
+										<div id="69_" w3-include-html="select" class="disabled"></div>
+									</div>
+									
+								</div>
+								elmt 70
+								<button disabled data-clone="#vendeur_0" data-clone-to="#vendeurs" data-class=".vendeur" class="clone btn btn-secondary btn-lg btn-block indivision disabled" type="button"><span class=" float-left"><i class="ml-1 fa fa-minus"></i></span><span>Ajouter un vendeur (<span class="count">1</span>)</span><span class=" float-right"><i class="ml-1 fa fa-plus"></i></span></button>
+								
+								<div class="form-row" id="vendeurs">
+									
+									<div id="vendeur_0" class="col-sm-12 vendeur"> 
+										<div class="card">
+											<button class="btn btn-remove" type="button" title="Supprimer ce vendeur"><i class="ml-1 fa fa-times-circle float-right"></i></button>
+											<h5 class="card-header">Vendeur <span class="index">1</span></h5>
+				
+											<div class="card-body">
+												<div id="71_" w3-include-html="input-placeholder"></div>
+												
+												<div id="72_" w3-include-html="input-placeholder"></div>
+												<div id="73_" w3-include-html="input-placeholder"></div>
+												<div id="74_" w3-include-html="input-placeholder"></div>
+												
+												<div class="card">
+													<h5 class="card-header">Prêts à solder</h5>
+													<div class="card-body">
+														<div id="75_" w3-include-html="radio-yes-no" class="toggle_yes_no"></div>
+															<fieldset disabled class="disabled">
+															<div id="76_" w3-include-html="input-placeholder"></div>
+															<div id="77_" w3-include-html="input-placeholder"></div>
+															<div id="78_" w3-include-html="radio-yes-no"></div>
+															<div id="79_" w3-include-html="input-placeholder"></div>
+															<div id="80_" w3-include-html="input-placeholder"></div>
+														</fieldset>
+				
+													</div>
+												</div>
+				
+												<div class="card">
+													<h5 class="card-header">Plus-value immobilière</h5>
+													<div class="card-body">
+														<div id="81_" w3-include-html="radio-yes-no"></div>
+														<div id="82_" w3-include-html="radio-yes-no"></div>
+														<div id="83_" w3-include-html="button-modal"></div>
+														<div id="84_" w3-include-html="input-placeholder"></div>
+													</div>
+												</div>
+				
+											</div>
+										</div>
+									</div>
+									
+								</div>
+								
+								<fieldset disabled class="disabled result">
+									<div id="result-vendeur" class="card">
+										<h3 class="card-header">
+											Résultat du décompte vendeur
+										</h3>
+				
+										<div class="card-body form-row">
+											<table class="table table-striped">
+											  <thead>
+											    <tr>
+											      <th scope="col">#</th>
+											      <th scope="col">Couleur</th>
+											      <th scope="col">Valeur</th>
+											      <th scope="col">%</th>
+											    </tr>
+											  </thead>
+											  <tbody>
+											    <tr>
+											      <th scope="row">1</th>
+											      <td>Rouge</td>
+											      <td>300</td>
+											      <td>1.5%</td>
+											    </tr>
+											    <tr>
+											      <th scope="row">2</th>
+											      <td>Vert</td>
+											      <td>50</td>
+											      <td>0.3%</td>
+											    </tr>
+											    <tr>
+											      <th scope="row">3</th>
+											      <td>Jaune</td>
+											      <td>100</td>
+											      <td>1%</td>
+											    </tr>
+											  </tbody>
+											</table>
+										</div>
+										<canvas id="doughnutChart"></canvas>
+										
+									</div>
+				
+									<button disabled class="btn btn-secondary btn-lg btn-block"><span>Générer un PDF</span><span class="float-right"><i class="fa fa-file-pdf-o"></i></span></button>
+								</fieldset>
+				
+								<div class="card">
+									<h3 class="card-header">Terminer le décompte<i class="fa fa-calculator float-right" aria-hidden="true"></i></h3>
+									<div class="card-body form-row">
+										<button type="button" class="btn btn-block btn-lg btn-primary goto" data-goto="#result-vendeur">Calculer le décompte vendeur</button>
+									</div>
+								</div>
+															
+								<div class="card">
+									<h3 class="card-header">Poursuivre le décompte<i class="fa fa-calculator float-right" aria-hidden="true"></i></h3>
+									<div class="card-body form-row">
+										<div class="col-md-5">
+											<button type="button" class="btn btn-lg btn-info btn-block goto" data-goto="#general"><i class="fa fa-angle-left"></i> Revenir au général</button>
+										</div>
+										<div class="col-md-2 text-center">
+											<span class="align-middle">Ou</span>
+										</div>
+										<div class="col-md-5">
+											<button type="button" class="btn btn-lg btn-info btn-block goto" data-goto="#acquereur">Continuer vers Acquéreur <i class="fa fa-angle-right"></i></button>
+										</div>
+									</div>
+								</div>
+				
+							</div>
+				
+						</div>end tab-content
+				
+					</div>end content-cms
+					<br>
+				</form> -->
+			</div>
+			<!-- <div class="mt-align col-xs-12 col-sm-6 col-sm-push-6 col-md-4 col-md-push-8">
+				<div class="form-top text-center bg-primary-more border-b">
+					<div w3-include-html="sidebar"></div>
+				</div>
+			</div> -->
+			
+		</div>
+	</div>
+
+	<div w3-include-html="footer"></div>
+
+	<!-- <p style="clear:both" class="back_to_top"> <a ng-click="gotoTop()"><img alt="Editions langloys" src="images/back_to_top.694ff128.jpg"></a> </p>
+	<div class="full footer-container"> <div class="center footer"> <p class="center footer-links"><a href="https://www.langloys.com/web-service-et-appli-mobile/" target="blank" class="footerlink">S'informer</a> - <a href="https://boutique.langloys.com/" target="_blank" class="footerlink">Commander</a> - <a ui-sref="cms({page:'contact'})" href="#!/cms?page=contact">Vos remarques</a> <a href="https://www.langloys.com/mentions-legales" target="_blank" class="footerlink">Liens utiles</a></p> <p class="text-center">ÉDITIONS LANGLOYS <br>Business Lounge - 395 rue Paradis - 13008 MARSEILLE <br> 04 91 25 13 38 - 04 91 25 60 02 <br><a href="mailto:info@langloys.com">info@langloys.com</a> <br> <a href="https://www.langloys.com/mentions-legales" target="_blank">Mentions Légales</a></p> </div> </div> -->
+	<!-- Optional JavaScript -->
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<!-- templating and plugins -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.js"></script>
+	<script src="js/handlebars-v4.0.12.js"></script>
+	<script src="js/main.js"></script>
+<script>
+  //doughnut
+  var ctxD = document.getElementById("doughnutChart").getContext('2d');
+  var myLineChart = new Chart(ctxD, {
+    type: 'doughnut',
+    data: {
+      labels: ["Rouge", "Vert", "Jaune", "Gris", "Noir"],
+      datasets: [{
+        data: [300, 50, 100, 40, 120],
+       /* backgroundColor: ["#F7464A", "#46BFBD", "#FDB45C", "#949FB1", "#4D5360"],*/
+        backgroundColor: ["#eee", "#eee", "#eee", "#eee", "#eee"],
+        /*hoverBackgroundColor: ["#FF5A5E", "#5AD3D1", "#FFC870", "#A8B3C5", "#616774"]*/
+      }]
+    },
+    options: {
+      responsive: true
+    }
+  });
+</script>
+<script>
+  //doughnut
+  var ctxD = document.getElementById("doughnutChart-2").getContext('2d');
+  var myLineChart = new Chart(ctxD, {
+    type: 'doughnut',
+    data: {
+      labels: ["Rouge", "Vert", "Jaune"],
+      datasets: [{
+        data: [200, 150, 300],
+        backgroundColor: ["#F7464A", "#46BFBD", "#FDB45C", "#949FB1", "#4D5360"],
+        /*backgroundColor: ["#eee", "#eee", "#eee", "#eee", "#eee"],*/
+        hoverBackgroundColor: ["#FF5A5E", "#5AD3D1", "#FFC870", "#A8B3C5", "#616774"]
+      }]
+    },
+    options: {
+      responsive: true
+    }
+  });
+</script>
+	
+</body>
+</html>

@@ -1,0 +1,14 @@
+<script id="select" type="text/x-handlebars-template">
+	<div id="select_{{id}}" class="form-group row">
+		<div class="col-sm-7">
+			<label for="select{{id}}">{{label}}{{#if tooltip}}
+  	<i class="fa fa-question-circle" data-toggle="tooltip" title="{{tooltip}}"></i>
+{{/if}}</label>
+		</div>
+		<div class="col-sm-5">
+			<select name="select{{id}}" id="select{{id}}" class="form-control"{{#if disabled}} disabled{{/if}}>
+				{{#each values}}<option value="{{this}}">{{this}}</option>{{/each}}
+			</select>
+		</div>
+	</div>				
+</script>

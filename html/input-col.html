@@ -1,0 +1,4 @@
+<script id="input-col" type="text/x-handlebars-template">
+	  {{#if labeled}}<label for="inputLabel{{id}}">{{label}}</labeled>{{/if}}
+	  <input type="text" class="form-control" id="inputLabel{{id}}" placeholder="{{label}}"{{#if disabled}} disabled{{/if}}>
+</script>

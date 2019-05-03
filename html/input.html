@@ -1,0 +1,12 @@
+<script id="input" type="text/x-handlebars-template">
+	<div id="input_{{id}}" class="form-group row"> 
+		<div class="col-sm-7">
+			<label for="labelfor{{id}}">{{label}}{{#if tooltip}}
+  	<i class="fa fa-question-circle" data-toggle="tooltip" title="{{tooltip}}"></i>
+{{/if}}</label>
+		</div> 
+		<div class="col-sm-5">
+			<input class="form-control" type="text" placeholder="{{value}}"{{#if disabled}} disabled{{/if}}>
+		</div> 
+	</div>
+</script>
